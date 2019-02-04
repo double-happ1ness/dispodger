@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Dispodger</title>
+  <style>
+    td {
+      max-width: 15vw;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div>
+
+    <input type="file" name="filename" id="fileInput">
+
+    <div class="csv"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="csv.js"></script>
+
+    <table style="width:100%">
+        <tr>
+            <th>Id</th>
+            <th>Artist(s)</th>
+            <th>Country</th>
+            <th>Released</th>
+            <th>Genre</th>
+            <th>Style(s)</th>
+            <th>Tracklist</th>
+        </tr>
+        <tr id="tableRow">
+
+        </tr>
+    </table>
+
+  </div>
+
+</body>
+</html>
